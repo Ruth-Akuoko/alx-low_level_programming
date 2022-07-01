@@ -22,9 +22,9 @@ else if (n == 0)
 {
 	printf("%d is zero\n", n);
 }
-else
+else(n < 0)
 {
-	printf("%d is less than 0\n", n);
+printf("%d is less than 0\n", n);
 }
 
 return (0);
