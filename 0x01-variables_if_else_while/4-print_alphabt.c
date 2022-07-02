@@ -11,9 +11,9 @@ int main(void)
 	for (ch = 97; ch <= 122; ch++)
 	while (ch != 'q' && ch != 'e')
 	{
-		putchar(ch)
+		putchar(ch);
 	}
-		putchar('\n')
+		putchar('\n');
 	
 	return (0);
 }
