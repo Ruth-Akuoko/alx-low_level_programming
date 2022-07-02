@@ -12,8 +12,6 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	while (ch != 113 && ch != 101)
-	putchar('\n');
-
+	while (ch != 'q' && ch != 'e')
 	return (0);
 }
