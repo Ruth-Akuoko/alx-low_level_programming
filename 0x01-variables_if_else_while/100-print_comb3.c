@@ -7,14 +7,12 @@ int main(void)
 {
 	int x;
 
-	for(x = 48; x <= 58; x++)
+	for (x = 0; x <= 100; x++)
 	{
-	if(x == 57 || x == 58)
-	{
-		putchar(x);
+		putchar((x / 10) + '0');
+		putchar((x % 10) + '0');
 		putchar(',');
 		putchar(' ');
-	}
 	}
 		putchar('\n');
 	return (0);
