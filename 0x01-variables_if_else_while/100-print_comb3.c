@@ -9,8 +9,8 @@ int main(void)
 
 	for (x = 0; x <= 100; x++)
 	{
-		putchar((x / 10) + '0');
-		putchar((x % 10) + '0');
+		putchar(x);
+	if (x!=100)
 		putchar(',');
 		putchar(' ');
 	}
