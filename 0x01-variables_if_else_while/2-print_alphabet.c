@@ -3,21 +3,13 @@
 *main- Entry point
 *Return: Always 0 (Success)
 */
-int main(void)
+int main ()
 
-int ch;
-
-
-
-for (ch = 97; ch <= 122; ch++)
-
-		{
-
-putchar(ch);
-putchar(10); /* this is an ascii code for new line*/
-
-
-
+int a 
+for(a = 'A'; x <= 'Z'; x++)
+{
+	putchar(tolower(x));
+	putchar ('\n');
+}
 return (0);
-
-
+}
