@@ -3,10 +3,10 @@
 *main- Entry point
 *Return: Always 0 (Success)
 */
-int main ()
+int main(void)
 
-int a 
-for(a = 'A'; x <= 'Z'; x++)
+int a
+for (a = 'A'; x <= 'Z'; x++)
 {
 	putchar(tolower(x));
 	putchar ('\n');
