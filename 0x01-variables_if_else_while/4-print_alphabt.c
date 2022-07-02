@@ -9,12 +9,11 @@ int main(void)
 	int ch;
 
 	for (ch = 97; ch <= 122; ch++)
+	while (ch != 'q' && ch != 'e')
 	{
-		putchar(ch);
+		putchar(ch)
 	}
-	if (ch != 'q' && ch != 'e')
-	{
-		putchar(ch);
-	}
+		putchar('\n')
+	
 	return (0);
 }
