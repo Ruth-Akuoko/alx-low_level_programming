@@ -5,9 +5,19 @@
 */
 int main(void)
 
-int x
-for (x = 'A'; x <= 'Z'; x++)
-	putchar(tolower(x));
-	putchar ('\n')
+int ch;
+
+
+
+for (ch = 97; ch <= 122; ch++)
+
+		{
+
+putchar(ch);
+putchar(10); /* this is an ascii code for new line*/
+
+
+
 return (0);
-}
+
+
