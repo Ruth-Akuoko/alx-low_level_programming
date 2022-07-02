@@ -8,10 +8,10 @@ int main(void)
 	int x;
 
 	for (x = 48; x <= 57; x++)
+	if (x == 44 && x == 32)
 	{
 		putchar(x);
 	}
-		putchar(' ,');
 		putchar('\n');
 	return (0);
 }
