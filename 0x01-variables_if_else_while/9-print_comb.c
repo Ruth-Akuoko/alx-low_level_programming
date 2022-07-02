@@ -10,9 +10,9 @@ int main(void)
 	for (x = 48; x <= 57; x++)
 	if (x <= 57)
 	{
+		putchar(x);
 		putchar(',');
 		putchar(' ');
-		putchar(x);
 	}
 		putchar('\n');
 	return (0);
