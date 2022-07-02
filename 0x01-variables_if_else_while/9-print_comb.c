@@ -8,11 +8,12 @@ int main(void)
 	int x;
 
 	for (x = 48; x <= 57; x++)
+	if (x <= 57)
 	{
+		putchar(',');
+		putchar(' ');
 		putchar(x);
 	}
-		putchar(32);
-		putchar(44);
 		putchar('\n');
 	return (0);
 }
