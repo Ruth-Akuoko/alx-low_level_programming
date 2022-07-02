@@ -5,11 +5,9 @@
 */
 int main(void)
 
-intx
-for (x = 'A'; x >= 'Z'; x++)
-{
+int x
+for (x = 'A'; x <= 'Z'; x++)
 	putchar(tolower(x));
-	putchar('\n');
-}
+	putchar ('\n')
 return (0);
 }
