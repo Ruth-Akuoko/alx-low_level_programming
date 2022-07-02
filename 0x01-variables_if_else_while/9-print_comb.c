@@ -8,7 +8,6 @@ int main(void)
 	int x;
 
 	for (x = 48; x <= 57; x++)
-	if (x <= 57)
 	{
 		putchar(x);
 		putchar(',');
