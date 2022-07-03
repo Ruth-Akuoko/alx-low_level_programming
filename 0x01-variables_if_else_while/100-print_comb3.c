@@ -5,17 +5,21 @@
  */
 int main(void)
 {
-	int x;
+	int tens;
+	int ones;
 
-	for (x = '0'; x <= '89'; x++)
+	for (tens = 0; tens <= 9; tens++)
 	{
-		for ((x / 10) + '0')
-		putchar(x);
-	if (x != 89)
-	
-		putchar(',');
-		putchar(' ');
-	}
+		for (ones = tens + 1; ones <= 9; ones++)
+		{
+			putchar(tens);
+			putchar(ones);
+			if (tens != 8 || ones != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
 		putchar('\n');
 	return (0);
