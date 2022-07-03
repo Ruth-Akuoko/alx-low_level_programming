@@ -10,9 +10,11 @@ int main(void)
 	for (x = 0; x <= 100; x++)
 	{
 		putchar(x);
-	if (x!=100)
+	if (x != 100)
+	{
 		putchar(',');
 		putchar(' ');
+	}
 	}
 		putchar('\n');
 	return (0);
