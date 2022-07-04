@@ -12,7 +12,8 @@ int main(void)
 
 		for (ones = '0'; ones <= '8'; ones++)
 		{
-			for (tens = '0'; tens <= '9'; tens++)
+			for (tens = ones + '0'; tens <= '9'; tens++)
+			
 			{
 				for (thousands = '0'; thousands <= '9'; thousands++)
 				{
