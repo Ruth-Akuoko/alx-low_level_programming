@@ -10,11 +10,11 @@ int main(void)
 	int tens;
 	int thousands;
 
-		for (ones = '0'; ones <= '9'; ones++)
+		for (ones = '0'; ones <= '8'; ones++)
 		{
-			for (tens = ones + '1'; tens <= '8'; tens++)
+			for (tens = '0'; tens <= '9'; tens++)
 			{
-				for (thousands = tens + '1'; thousands <= '9'; thousands++)
+				for (thousands = '0'; thousands <= '9'; thousands++)
 				{
 					putchar(ones);
 					putchar(tens);
