@@ -13,14 +13,13 @@ int main(void)
 		for (ones = '0'; ones <= '7'; ones++)
 		{
 			for (tens = ones + '1'; tens <= '8'; tens++)
-			
 			{
 				for (thousands = tens + '1'; thousands <= '9'; thousands++)
 				{
 					putchar(ones);
 					putchar(tens);
 					putchar(thousands);
-					if (ones != 7 && tens != '8' && thousands != '9')
+					if (ones != 7 || tens != '8' || thousands != '9')
 					{
 						putchar(',');
 						putchar(' ');
