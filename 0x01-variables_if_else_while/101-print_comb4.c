@@ -19,7 +19,7 @@ int main(void)
 					putchar(ones);
 					putchar(tens);
 					putchar(thousands);
-					if (ones != 7 || tens != '8' || thousands != '9')
+					if (ones != '7' || tens != '8' || thousands != '9')
 					{
 						putchar(',');
 						putchar(' ');
